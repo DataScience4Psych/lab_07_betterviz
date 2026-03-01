@@ -7,8 +7,10 @@ output: github_document
 
 ### Load packages and data
 
-```{r load-packages, message=FALSE}
-library(tidyverse) 
+```{r load}
+library(tidyverse)
+
+df <- read_csv("kansas_grouped_rolling_avg.csv")
 ```
 
 ### Exercise 1
